@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/sradc/semvar-test/compare/release-1.0.0...release-1.0.1) (2022-09-30)
+
+
+### Bug Fixes
+
+* pin node + node package versions in release.yml ([82cab5b](https://github.com/sradc/semvar-test/commit/82cab5b8d83c138391c92c67d46c29fb1dbd2ff1))
+
 # 1.0.0 (2022-09-30)
 
 
