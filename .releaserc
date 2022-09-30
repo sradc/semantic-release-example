@@ -7,17 +7,18 @@
         "@semantic-release/release-notes-generator",
         "@semantic-release/changelog",
         [
-            "@semantic-release/git",
+            "@semantic-release/exec",
             {
-                "assets": [
-                    "./CHANGELOG.md"
-                ]
+                "prepareCmd": "echo \"${nextRelease.version}\" > version"
             }
         ],
         [
-            "@semantic-release/exec",
+            "@semantic-release/git",
             {
-                "successCmd": "echo \"${nextRelease.version}\" > version"
+                "assets": [
+                    "./CHANGELOG.md",
+                    "version"
+                ]
             }
         ]
     ],
