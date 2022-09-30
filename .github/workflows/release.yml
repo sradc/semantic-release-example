@@ -18,7 +18,8 @@ jobs:
           node-version: 18
       - name: Install dependencies
         run: |
-          npm i -g semantic-release@19.0.5  \
+          npm i -g  \
+            semantic-release@19.0.5  \
             @semantic-release/changelog@6.0.1  \
             @semantic-release/git@10.0.1
       - name: Release
