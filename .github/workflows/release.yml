@@ -21,7 +21,8 @@ jobs:
           npm i -g  \
             semantic-release@19.0.5  \
             @semantic-release/changelog@6.0.1  \
-            @semantic-release/git@10.0.1
+            @semantic-release/git@10.0.1  \
+            @semantic-release/exec@6.0.3
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
