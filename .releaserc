@@ -12,6 +12,10 @@
                 "assets": [
                     "./CHANGELOG.md"
                 ]
+            },
+            "@semantic-release/exec",
+            {
+                "successCmd": "echo \"${nextRelease.version}\" > version"
             }
         ]
     ],
