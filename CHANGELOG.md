@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/sradc/semvar-test/compare/release-1.1.1...release-1.1.2) (2022-10-01)
+
+
+### Bug Fixes
+
+* npm i -> npm install (not actually a fix, but want to trigger release) ([7298acf](https://github.com/sradc/semvar-test/commit/7298acf0f704f991a255ee346061a934b0e38ad0))
+
 ## [1.1.1](https://github.com/sradc/semvar-test/compare/release-1.1.0...release-1.1.1) (2022-10-01)
 
 
