@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/sradc/semvar-test/compare/release-1.1.0...release-1.1.1) (2022-10-01)
+
+
+### Bug Fixes
+
+* pin node version ([b87281e](https://github.com/sradc/semvar-test/commit/b87281e06708d8721e36425ff2186553bcd98182))
+
 # [1.1.0](https://github.com/sradc/semvar-test/compare/release-1.0.1...release-1.1.0) (2022-09-30)
 
 
